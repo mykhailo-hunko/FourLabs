@@ -1,6 +1,5 @@
-plugins {
-    id 'java'
-}
+apply plugin: 'java'
+compileJava {options.encoding = "cp1251"}
 
 group 'org.example'
 version '1.0-SNAPSHOT'
